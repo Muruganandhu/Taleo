@@ -1,4 +1,4 @@
-using EFCoreMySQL.Models;
+using Taleo.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
