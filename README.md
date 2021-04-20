@@ -1,5 +1,5 @@
 # Taleo
-Donwload / clone the project to your local.
+Download / clone the project to your local.
 run dotnet build in command prompt
 
 once the build is succeed
