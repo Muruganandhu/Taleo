@@ -22,15 +22,16 @@ jobs:
           run: dotnet test --logger trx --results-directory "TestResults-${{ matrix.dotnet-version }}"
         - name: Publish
           run: dotnet publish -c Release -r win-x64 --self-contained true --output "TestResults-${{ matrix.dotnet-version }}"
-        - name: Download all workflow run artifacts
-          uses: actions/download-artifact@v2
-          with:
-            name: my-artifact
         - name: Upload dotnet test results and publish
           uses: actions/upload-artifact@v2
           with:
             name: dotnet-results-${{ matrix.dotnet-version }}
-            path: TestResults-${{ matrix.dotnet-version }}
+            path: TestResults-${{ matrix.dotnet-version }}/
+        - name: Download all workflow run artifacts
+          uses: actions/download-artifact@v2
+          with:
+            name: dotnet-results-${{ matrix.dotnet-version }}
+        
           
           # Use always() to always run this step to publish test results when there are test failures
           if: ${{ always() }}
