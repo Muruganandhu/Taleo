@@ -21,7 +21,7 @@ jobs:
         - name: Test with dotnet
           run: dotnet test --logger trx --results-directory "TestResults-${{ matrix.dotnet-version }}"
         - name: Publish
-          run: dotnet publish -c Release -r win-x64 --self-contained true --results-directory "TestResults-${{ matrix.dotnet-version }}"
+          run: dotnet publish -c Release -r win-x64 --self-contained true --output "TestResults-${{ matrix.dotnet-version }}"
         - name: Upload dotnet test results and publish
           uses: actions/upload-artifact@v2
           with:
