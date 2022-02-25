@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T05:35:37.966Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="gLHVYjjsoT3tAF1zR7TX" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-25T17:51:05.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="cEVm7Y43HGGefIbvSiFd" version="16.6.4" type="github" pages="2">
   <diagram id="NXdDDToXco_D6gbY6UZC" name="Page-1">
-    <mxGraphModel dx="701" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1108" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,7 +44,7 @@
         <mxCell id="UzB4hfQY8bCyVCNG1F1z-4" value="Grades" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="260" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="fiUlolov2Gi9SPY5gAFX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UzB4hfQY8bCyVCNG1F1z-5" target="UzB4hfQY8bCyVCNG1F1z-6">
+        <mxCell id="fiUlolov2Gi9SPY5gAFX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="UzB4hfQY8bCyVCNG1F1z-5" target="UzB4hfQY8bCyVCNG1F1z-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UzB4hfQY8bCyVCNG1F1z-5" value="Parents" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -73,6 +73,44 @@
         </mxCell>
         <mxCell id="UzB4hfQY8bCyVCNG1F1z-13" value="Celebrate success" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="UzB4hfQY8bCyVCNG1F1z-6" vertex="1">
           <mxGeometry y="210" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1r9UJJ_SWWCpA-zr8G72" name="Page-2">
+    <mxGraphModel dx="1108" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="jcpTW9u_Sn1JXeJbVDP1-0" />
+        <mxCell id="jcpTW9u_Sn1JXeJbVDP1-1" parent="jcpTW9u_Sn1JXeJbVDP1-0" />
+        <mxCell id="jcpTW9u_Sn1JXeJbVDP1-19" value="School" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="jcpTW9u_Sn1JXeJbVDP1-1">
+          <mxGeometry x="260" y="20" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jcpTW9u_Sn1JXeJbVDP1-20" value="ID&#xa;Name&#xa;Teachers" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="jcpTW9u_Sn1JXeJbVDP1-19">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jcpTW9u_Sn1JXeJbVDP1-22" value="Services" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="jcpTW9u_Sn1JXeJbVDP1-1">
+          <mxGeometry x="450" y="90" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jcpTW9u_Sn1JXeJbVDP1-23" value="ID&#xa;Name&#xa;Description&#xa;Service Type&#xa;School" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="jcpTW9u_Sn1JXeJbVDP1-22">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jcpTW9u_Sn1JXeJbVDP1-24" value="Students" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="jcpTW9u_Sn1JXeJbVDP1-1">
+          <mxGeometry x="70" y="120" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jcpTW9u_Sn1JXeJbVDP1-25" value="ID&#xa;Full_name&#xa;Grade&#xa;School&#xa;Parent" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="jcpTW9u_Sn1JXeJbVDP1-24">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jcpTW9u_Sn1JXeJbVDP1-26" value="Users" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="jcpTW9u_Sn1JXeJbVDP1-1">
+          <mxGeometry x="240" y="250" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jcpTW9u_Sn1JXeJbVDP1-27" value="UserID&#xa;Name&#xa;User Type&#xa;Active" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="jcpTW9u_Sn1JXeJbVDP1-26">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jcpTW9u_Sn1JXeJbVDP1-28" value="Service Events" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="jcpTW9u_Sn1JXeJbVDP1-1">
+          <mxGeometry x="620" y="220" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jcpTW9u_Sn1JXeJbVDP1-29" value="ID&#xa;Services&#xa;Name&#xa;Users&#xa;Student" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="jcpTW9u_Sn1JXeJbVDP1-28">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
