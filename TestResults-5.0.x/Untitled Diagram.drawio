@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-26T05:49:50.024Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="pVBtCgWJo80ajlTJrvwl" version="16.6.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-26T05:50:17.341Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="t0HcCP1giPad4Fw6u_AI" version="16.6.4" type="github" pages="3">
   <diagram id="NXdDDToXco_D6gbY6UZC" name="Page-1">
     <mxGraphModel dx="1346" dy="1020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -356,13 +356,13 @@
           <mxGeometry x="25" y="80" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zB3rXU89u5zQtwb3EBFo-3" value="State" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="qUBD9nHaHkdQ3LgJlzUJ-4" vertex="1">
-          <mxGeometry x="40" y="110" width="40" height="20" as="geometry" />
+          <mxGeometry x="30" y="100" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zB3rXU89u5zQtwb3EBFo-4" value="Varchar" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="qUBD9nHaHkdQ3LgJlzUJ-4" vertex="1">
           <mxGeometry x="110" y="110" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zB3rXU89u5zQtwb3EBFo-5" value="Country" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="qUBD9nHaHkdQ3LgJlzUJ-4" vertex="1">
-          <mxGeometry x="20" y="130" width="60" height="20" as="geometry" />
+          <mxGeometry x="25" y="130" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zB3rXU89u5zQtwb3EBFo-6" value="Varchar" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="qUBD9nHaHkdQ3LgJlzUJ-4" vertex="1">
           <mxGeometry x="110" y="130" width="60" height="20" as="geometry" />
